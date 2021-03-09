@@ -1,9 +1,13 @@
 
-
+html {
+  height: 100%;
+}
 
 body {
   background-image: url(images/pankaj-patel-SXihyA4oEJs-unsplash.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
   color: ffffff;
 }
 h1{
@@ -15,7 +19,7 @@ h1{
   margin-top: 250px;
 }
 h2{
-  margin-left: 350px;
+ text-align: center;
   font-size: 20px;
   font: sans-serif; 
   }
@@ -27,3 +31,13 @@ li {
   display: inline;
 }
 
+
+
+
+@media only screen and (max-width: 375px) {
+  body {
+   background-size: auto;
+    width: 100%;
+   background-repeat: no-repeat; 
+  }
+}
